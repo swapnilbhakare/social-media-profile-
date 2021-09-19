@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+span {
+  color: #786450;
+}
+.container {
+  font-family: 'Roboto', sans-serif;
+  background: rgb(237, 188, 107);
+  background-image: linear-gradient(to right, #ecbb6b, #e5ab63, #dd9c5b, #d48d55, #cb7e4f);  height: 100vh; display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 2fr 0fr;
+  width: 500px;
+  height: 484px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 8px 15px 25px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;}
+.card .profile {
+  text-align: center;
+  padding: 4rem;
+  
+}
+.profile .img-wrapper{
+    margin: 0 auto;
+    position: relative;
+    border-radius: 50%;
+    border-left:   1px solid #584d41;
+    border-top:   1px solid #584d41;
+border-width: 1px;
+border-bottom:   1px solid #584d41;
+border-right: 1px solid #fff;
+    width: 130px;
+    height: 130px;
+    
+  
+}
+.profile .img-wrapper img {
+    position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border-bottom:   1px solid #584d41;
+  border-top:   1px solid #584d41;
+  border-right:   1px solid #584d41;
+
+border-left: 1px solid #fff;
+  padding: 4px;
+ 
+     
+        
+        
+      
+}
+.profile h1 {
+  margin-top: 1.5rem;
+  font-weight: 500;
+  font-size: 1.5rem
+}
+.profile span {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.profile div {
+  margin-top: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.profile div button {
+  margin: 0.5rem 0;
+  text-align: center;
+  width: 200px;
+  padding: 0.6rem 2.4rem;
+  outline: none;
+  border: transparent;
+  border-radius: 22px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  -ms-border-radius: 22px;
+  -o-border-radius: 22px;
+}
+.profile div button.follow {
+  background: #786450;
+  color: #fff;
+  transition: all .3s ease-in-out;
+  border: 2px solid transparent;
+
+ 
+}
+.profile div button.follow:hover {
+  background: transparent;
+  color: #786450;
+  border: 2px solid #786450;
+
+
+}
+.profile div button.message {
+  border: 2px solid #786450;
+  color: #786450;
+  background: #fff;
+  transition: all .3s ease-in-out;
+
+}
+.profile div button.message:hover{
+  border: 2px solid transparent;
+  color: #fff;
+  background-color: #786450;
+
+
+}
+
+.social-signals div {
+  background: #f5e8df;
+  margin-bottom: 2px;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.social-signals div:first-child {
+  border-radius: 0 8px 0 0;
+}
+.social-signals div:last-child {
+  margin-bottom: 0;
+  border-radius: 0 0 8px 0;
+}
+h2 {
+  font-weight: 500;
+  font-size: 2rem;
+}
+h3 {
+  font-weight: 100;
+}
